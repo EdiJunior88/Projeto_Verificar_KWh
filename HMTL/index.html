@@ -15,16 +15,15 @@
   <section>
     <div>
       <p>Tipo de Residência: Normal</p>
-      <p>Classe Residêncial</p>
-      <p>Digite a tarifa (R$/kWh) <input type="number" name="tarifa" id="tarifa" min="0" step="0.01"></p>
+      <p>Classe: Residêncial</p>
+      <p>Nome do eletrodoméstico: <input type="text" name="eletro" id="eletro" ></p>
+      <p>Potência do aparelho (Watts) <input type="number" name="potencia" id="potencia" min="0" placeholder="insira números"></p>
+      <p>Horas de uso por dia: <input type="number" name="horasDia" id="horasDia" min="0" placeholder="insira números"></p>
+      <p>Dias de uso durante o mês: <input type="number" name="diasMes" id="diasMes" min="0" max="31" value="1"></p>
     </div>
 
     <div>
-      <p>Digite o consumo (kW) do produto: <input type="number" name="consumo" id="consumo" min="0" step="0.01"></p>
-    </div>
-
-    <div>
-      <p id="resultado">Resultado: </p>
+      <p id="resultado"></p>
     </div>
 
     <div>
