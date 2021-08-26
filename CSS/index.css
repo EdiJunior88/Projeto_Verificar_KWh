@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: rgb(213, 238, 188);
+  background-color: #89DBFA;
 }
 
 header > h1 {
   text-align: center;
   margin-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5em;
 }
 
 section {
-  background-color: coral;
-  width: 450px;
-  height: 450px;
+  background-color: #dcfa89c9;
+  width: 480px;
+  height: 400px;
   margin: auto;
   margin-top: 50px;
   padding-top: 20px;
   border-radius: 15px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.171);
 }
 
 input {
@@ -29,6 +36,17 @@ input {
 #texto {
   width: 80%;
   margin: auto;
+}
+
+#texto2 {
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1em;
+  line-height: 1.7em;
 }
 
 #eletro {
@@ -44,7 +62,6 @@ input {
   margin-left: 63px;
 }
 
-
 #tarifa {
   margin-left: 88px;
 }
@@ -58,10 +75,41 @@ input {
   margin: auto;
 }
 
+/*Configurações personalizadas e animadas dos botões*/
+
 #botaoConfirmar{
   margin-right: 10%;
+  padding: 8px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.1em;
+  background-color: #faa78996;
+  border-color: unset;
+  border: thick;
+}
+
+#botaoConfirmar:hover {
+  background-color: #faa789;
+  cursor: pointer;
+  animation-duration: 1s;
+  animation-name: large;
+}
+
+#botaoConfirmar: {
+
 }
 
 #botaoLimpar {
   margin-left: 10%;
+}
+
+@keyframes large {
+  0% {
+    padding: 8px;
+  }
+  50% {
+    padding: 10px;
+  }
+  100% {
+    padding: 8px;
+  }
 }
