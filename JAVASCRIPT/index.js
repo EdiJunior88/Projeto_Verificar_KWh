@@ -22,10 +22,6 @@ function confirmar() {
   }
 }
 
-
-
-
-
 function limpar() {
   var nomeEletro = document.getElementById('eletro')
   var potenciaTotal = document.getElementById('potencia')
