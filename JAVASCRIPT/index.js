@@ -4,40 +4,41 @@ function confirmar() {
   var potenciaTotal = document.getElementById('potencia')
   var consumoDia = document.getElementById('horasDia')
   var consumoMes = document.getElementById('diasMes')
+  var tarifaTotal = document.getElementById('tarifa')
   var resultadoTotal = document.getElementById('resultado')
 
   
-  if(potenciaTotal.value.length == '' || consumoDia.value.length == '' || consumoMes.value.length == ''){
+  if(potenciaTotal.value.length == '' || consumoDia.value.length == '' || consumoMes.value.length == '' || tarifaTotal.value.length == ''){
     window.alert('Digite um número')
   }
   else if(nomeEletro.value == '') {
     window.alert('Digite o nome do eletrodoméstico')
   }
   else {
-    /* resultadoTotal.innerHTML = `Resultado: ${potenciaTotal.value}` */
+    //CONSUMO TOTAL (kWh) = potência (W) x horas de uso por dia (h) x dias de uso no mês / 1000.
+    var consumoTotal = (potenciaTotal.value * consumoDia.value * consumoMes.value / 1000) * tarifaTotal.value
 
-    var calculoKW = potenciaTotal.value * consumoDia.value * consumoMes.value / 1000
-
-    resultadoTotal.innerText = `${nomeEletro.value} = ${calculoKW} kWh`
+    resultadoTotal.innerText = `Gasto Total: ${nomeEletro.value} = ${consumoTotal.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`
   }
 }
 
 
 
 
-/* CONSUMO (kWh) = potência (W) x horas de uso por dia (h) x dias de uso no mês / 1000. */
 
 function limpar() {
   var nomeEletro = document.getElementById('eletro')
   var potenciaTotal = document.getElementById('potencia')
   var consumoDia = document.getElementById('horasDia')
   var consumoMes = document.getElementById('diasMes')
+  var tarifaTotal = document.getElementById('tarifa')
   var resultadoTotal = document.getElementById('resultado')
 
   nomeEletro.value = ''
   potenciaTotal.value = ''
   consumoDia.value = ''
   consumoMes.value = ''
+  tarifaTotal.value = ''
   resultadoTotal.innerHTML = ''
 }
 
