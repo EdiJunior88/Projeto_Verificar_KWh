@@ -21,3 +21,47 @@ section {
   padding-top: 20px;
   border-radius: 15px;
 }
+
+input {
+  width: 50px;
+}
+
+#texto {
+  width: 80%;
+  margin: auto;
+}
+
+#eletro {
+  width: 130px;
+  margin-left: 30px;
+}
+
+#potencia {
+  margin-left: 15px;
+}
+
+#horasDia {
+  margin-left: 63px;
+}
+
+
+#tarifa {
+  margin-left: 88px;
+}
+
+#diasMes {
+  margin-left: 27px;
+}
+
+#botoes {
+  width: 40%;
+  margin: auto;
+}
+
+#botaoConfirmar{
+  margin-right: 10%;
+}
+
+#botaoLimpar {
+  margin-left: 10%;
+}
