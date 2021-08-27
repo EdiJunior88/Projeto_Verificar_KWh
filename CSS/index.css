@@ -43,6 +43,12 @@ input {
   margin: auto;
 }
 
+#resultado {
+  font-weight: bold;
+  padding: 7px 0 7px 0;
+  position: absolute;
+}
+
 p {
   font-family: 'Oxygen', sans-serif;
   font-size: 1em;
@@ -71,8 +77,9 @@ p {
 }
 
 #botoes {
-  width: 40%;
+  width: 50%;
   margin: auto;
+  padding-top: 47px;
 }
 
 /*Configurações personalizadas e animadas dos botões*/
@@ -88,26 +95,40 @@ p {
 }
 
 #botaoConfirmar:hover {
-  background-color: #faa789;
   cursor: pointer;
-  animation-duration: 1s;
-  animation-name: large;
 }
 
-#botaoConfirmar: {
-
+#botaoConfirmar:active {
+  animation: click 1s forwards;
 }
 
 #botaoLimpar {
   margin-left: 10%;
+  margin-right: 10%;
+  padding: 8px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.1em;
+  background-color: #faa78996;
+  border-color: unset;
+  border: thick;
 }
 
-@keyframes large {
+#botaoLimpar:active {
+  animation: click 1s forwards;
+}
+
+#botaoLimpar:hover {
+  cursor: pointer;
+}
+
+@keyframes click {
   0% {
     padding: 8px;
   }
   50% {
-    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #ff8255;
   }
   100% {
     padding: 8px;
