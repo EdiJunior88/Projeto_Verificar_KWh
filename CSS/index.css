@@ -38,15 +38,22 @@ input {
   margin: auto;
 }
 
+#texto > p > strong {
+  color: #77105c;
+}
+
 #texto2 {
   width: 80%;
   margin: auto;
 }
 
-#resultado {
+#resultado{
+  font-size: 1.2em;
   font-weight: bold;
-  padding: 7px 0 7px 0;
-  position: absolute;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 15px;
+  background-color: #fa89dc6e;
 }
 
 p {
@@ -65,33 +72,43 @@ p {
 }
 
 #horasDia {
-  margin-left: 63px;
+  margin-left: 71px;
 }
 
 #tarifa {
-  margin-left: 88px;
+  margin-left: 106px;
 }
 
 #diasMes {
-  margin-left: 27px;
+  margin-left: 29px;
 }
 
 #botoes {
-  width: 50%;
+  text-align: center;
   margin: auto;
-  padding-top: 47px;
+  padding-top: 15px;
+}
+
+img {
+  width: 18%;
+  margin:auto;
+  margin-top: 15px;
+  display: flex;
 }
 
 /*Configurações personalizadas e animadas dos botões*/
 
 #botaoConfirmar{
-  margin-right: 10%;
+  width: 75px;
+  margin-right: 3%;
   padding: 8px;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.1em;
   background-color: #faa78996;
   border-color: unset;
   border: thick;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.092);
 }
 
 #botaoConfirmar:hover {
@@ -103,18 +120,20 @@ p {
 }
 
 #botaoLimpar {
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 75px;
+  margin-left: 3%;
   padding: 8px;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.1em;
   background-color: #faa78996;
   border-color: unset;
   border: thick;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.092);
 }
 
 #botaoLimpar:active {
-  animation: click 1s forwards;
+  animation: click 1s;
 }
 
 #botaoLimpar:hover {
@@ -134,3 +153,5 @@ p {
     padding: 8px;
   }
 }
+
+
