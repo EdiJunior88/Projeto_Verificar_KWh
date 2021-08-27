@@ -17,7 +17,7 @@ function confirmar() {
   else {
     //CONSUMO TOTAL (kWh) = potência (W) x horas de uso por dia (h) x dias de uso no mês / 1000.
     var consumoTotal = (potenciaTotal.value * consumoDia.value * consumoMes.value / 1000) * tarifaTotal.value
-    resultadoTotal.innerText = `Gasto Total: ${nomeEletro.value} = ${consumoTotal.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`
+    resultadoTotal.innerText = `Gasto \u{1F911}\ ${nomeEletro.value} = ${consumoTotal.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`
   }
 }
 
