@@ -16,6 +16,8 @@ Projeto simples para verificar a quantidade de KW/h, apresentando as seguintes c
   <li>Design responsivo de acordo com as principais medidas (telas) no mercado, principalmente para smartfones</li>
 </ul>
 
+<hr>
+
 ![Alt Text](https://media.giphy.com/media/2ivE9qY67FKq8CpXn8/giphy.gif)
 
 <h4><b>Status do Projeto:</b> :white_check_mark: Concluído</h4>
