@@ -96,6 +96,14 @@ img {
   display: flex;
 }
 
+footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  text-shadow: 2px 3px #7979791f;
+}
+
 /*Configurações personalizadas e animadas dos botões*/
 
 #botaoConfirmar{
