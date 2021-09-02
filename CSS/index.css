@@ -21,7 +21,7 @@ header > h1 {
 section {
   background-color: #dcfa89c9;
   width: 480px;
-  height: 380px;
+  height: 400px;
   margin: auto;
   margin-top: 50px;
   padding-top: 20px;
@@ -168,7 +168,7 @@ footer {
   
   section {
     width: 390px;
-    height: 310px;
+    height: 340px;
     margin: auto;
     margin-top: 50px;
     padding-top: 20px;
@@ -227,7 +227,7 @@ footer {
   
   section {
     width: 340px;
-    height: 290px;
+    height: 305px;
     margin: auto;
     margin-top: 50px;
     padding-top: 20px;
@@ -239,6 +239,10 @@ footer {
 
   p {
     font-size: 0.7em;
+  }
+
+  footer {
+    font-size: 0.8em;
   }
 
   #texto {
