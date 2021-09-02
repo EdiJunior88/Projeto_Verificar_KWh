@@ -21,7 +21,7 @@ header > h1 {
 section {
   background-color: #dcfa89c9;
   width: 480px;
-  height: 400px;
+  height: 380px;
   margin: auto;
   margin-top: 50px;
   padding-top: 20px;
@@ -162,12 +162,13 @@ footer {
   }
 }
 
+/* Configurações do Media Querie*/
 
 @media (max-width: 546px) {
   
   section {
     width: 390px;
-    height: 340px;
+    height: 310px;
     margin: auto;
     margin-top: 50px;
     padding-top: 20px;
@@ -197,7 +198,6 @@ footer {
 
   #eletro {
     width: 110px;
-    margin-left: 30px;
   }
   
   #potencia {
@@ -227,14 +227,14 @@ footer {
   
   section {
     width: 340px;
-    height: 340px;
+    height: 290px;
     margin: auto;
     margin-top: 50px;
     padding-top: 20px;
 }
   
   header > h1 {
-    font-size: 1.6em;
+    font-size: 1.7em;
   }
 
   p {
@@ -287,18 +287,18 @@ footer {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 357px){
   
   section {
     width: 280px;
-    height: 310px;
+    height: 265px;
     margin: auto;
     margin-top: 50px;
     padding-top: 20px;
 }
   
   header > h1 {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   p {
@@ -325,7 +325,7 @@ footer {
   }
   
   #resultado{
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   #eletro {
@@ -334,19 +334,88 @@ footer {
   }
   
   #potencia {
-    margin-left: 19px;
+    margin-left: 21px;
   }
   
   #horasDia {
-    margin-left: 57px;
+    margin-left: 54px;
   }
   
   #tarifa {
-    margin-left: 82px;
+    margin-left: 75px;
   }
   
   #diasMes {
-    margin-left: 28px;
+    margin-left: 29px;
+  }
+  
+  #botoes {
+    font-size: 0.8em;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 280px) {
+  
+  section {
+    width: 250px;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+  
+  header > h1 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.5em;
+  }
+
+  footer {
+    font-size: 0.5em;
+  }
+
+  #texto {
+    width: 80%;
+    margin: auto;
+  }
+
+  input {
+    font-size: 1em;
+  }
+   
+  #texto2 {
+    width: 80%;
+    margin: auto;
+  }
+  
+  #resultado{
+    font-size: 0.6em;
+  }
+
+  #eletro {
+    width: 67px;
+    margin-left: 30px;
+  }
+  
+  #potencia {
+    margin-left: 22px;
+  }
+  
+  #horasDia {
+    margin-left: 50px;
+  }
+  
+  #tarifa {
+    margin-left: 67px;
+  }
+  
+  #diasMes {
+    margin-left: 29px;
   }
   
   #botoes {
@@ -354,5 +423,16 @@ footer {
     margin: auto;
     padding-top: 15px;
   }
+
+  #botaoConfirmar{
+    width: 60px;
+    font-size: 0.8em;
+  }
+
+  #botaoLimpar {
+    width: 60px;
+    font-size: 0.8em;
+  }
 }
+
 
