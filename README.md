@@ -1,5 +1,10 @@
-# Projeto_Verificar_KWh
+<h1>Projeto - Consumo de kW/h</h1>
+
+<p>
 Projeto simples para verificar a quantidade de KW/h, apresentando as seguintes características:
+</p>
+
+<hr>
 
 <ul>
   <li>Inclusão do nome de um aparelho eletrodoméstico</li>
