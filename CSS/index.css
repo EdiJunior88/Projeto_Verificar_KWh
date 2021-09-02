@@ -163,3 +163,196 @@ footer {
 }
 
 
+@media (max-width: 546px) {
+  
+  section {
+    width: 390px;
+    height: 340px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+  
+  header > h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  #texto {
+    width: 80%;
+    margin: auto;
+  }
+
+  #texto2 {
+    width: 80%;
+    margin: auto;
+  }
+  
+  #resultado{
+    font-size: 1em;
+  }
+
+  #eletro {
+    width: 110px;
+    margin-left: 30px;
+  }
+  
+  #potencia {
+    margin-left: 17px;
+  }
+  
+  #horasDia {
+    margin-left: 62px;
+  }
+  
+  #tarifa {
+    margin-left: 89px;
+  }
+  
+  #diasMes {
+    margin-left: 28px;
+  }
+  
+  #botoes {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 390px) {
+  
+  section {
+    width: 340px;
+    height: 340px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+  
+  header > h1 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
+
+  #texto {
+    width: 80%;
+    margin: auto;
+  }
+
+  input {
+    font-size: 1em;
+  }
+   
+  #texto2 {
+    width: 80%;
+    margin: auto;
+  }
+  
+  #resultado{
+    font-size: 0.8em;
+  }
+
+  #eletro {
+    width: 100px;
+    margin-left: 30px;
+  }
+  
+  #potencia {
+    margin-left: 19px;
+  }
+  
+  #horasDia {
+    margin-left: 57px;
+  }
+  
+  #tarifa {
+    margin-left: 82px;
+  }
+  
+  #diasMes {
+    margin-left: 28px;
+  }
+  
+  #botoes {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  
+  section {
+    width: 280px;
+    height: 310px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+  
+  header > h1 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 0.6em;
+  }
+
+  footer {
+    font-size: 0.6em;
+    text-shadow: 1px 1px #7979791f;
+  }
+
+  #texto {
+    width: 80%;
+    margin: auto;
+  }
+
+  input {
+    font-size: 1em;
+  }
+   
+  #texto2 {
+    width: 80%;
+    margin: auto;
+  }
+  
+  #resultado{
+    font-size: 0.8em;
+  }
+
+  #eletro {
+    width: 70px;
+    margin-left: 30px;
+  }
+  
+  #potencia {
+    margin-left: 19px;
+  }
+  
+  #horasDia {
+    margin-left: 57px;
+  }
+  
+  #tarifa {
+    margin-left: 82px;
+  }
+  
+  #diasMes {
+    margin-left: 28px;
+  }
+  
+  #botoes {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+  }
+}
+
