@@ -1,8 +1,16 @@
 <h1>Projeto - Consumo de kW/h</h1>
 
 <p>
-Projeto simples para verificar a quantidade de KW/h, apresentando as seguintes características:
+Projeto para verificar a quantidade de KW/h, apresentando as seguintes características:
 </p>
+
+<hr>
+
+<h3>Tecnologias Utilizadas</h3>
+
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+
+Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 <hr>
 
