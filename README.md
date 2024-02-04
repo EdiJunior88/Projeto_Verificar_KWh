@@ -28,4 +28,4 @@ Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 ![Alt Text](https://media.giphy.com/media/2ivE9qY67FKq8CpXn8/giphy.gif)
 
-<h4><b>Status do Projeto:</b> :white_check_mark: Concluído</h4>
+<h4><b>Status do Projeto:</b> ✅ Concluído</h4>
